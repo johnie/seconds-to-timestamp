@@ -1,0 +1,43 @@
+{
+  "name": "seconds-to-timestamp",
+  "version": "0.0.1",
+  "description": "Convert seconds to HH:MM:SS",
+  "license": "MIT",
+  "repository": "johnie/seconds-to-timestamp",
+  "author": {
+    "name": "Johnie Hjelm",
+    "email": "johnie@hjelm.im",
+    "url": "https://johnie.se"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "convert",
+    "format",
+    "seconds",
+    "timestamp"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^4.3.0",
+    "xo": "^0.50.0"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "arrow-parens": "off",
+      "comma-dangle": "off",
+      "object-curly-spacing": "off",
+      "operator-linebreak": "off"
+    }
+  }
+}
