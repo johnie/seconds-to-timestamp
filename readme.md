@@ -1,3 +1,5 @@
+![test status](https://github.com/johnie/seconds-to-timestamp/actions/workflows/main.yml/badge.svg)
+
 # seconds-to-timestamp
 
 > Convert seconds to HH:MM:SS
